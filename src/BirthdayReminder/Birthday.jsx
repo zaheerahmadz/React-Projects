@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { data } from "./data";
 import SingleCard from "./SingleCard";
+document.title = "Birthday Card";
 const Birthday = () => {
   const [mydata, setMyData] = useState(data);
   const handlerFun = () => {
