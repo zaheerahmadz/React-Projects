@@ -1,0 +1,42 @@
+export const PData = [
+  {
+    id: 1,
+    firstName: "Noreen",
+    age: 25,
+    img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-3_rxtqvi.jpg",
+    job: "Frontend Developer",
+    Text: "A Front-End Developer focuses on building the visual part of websites and web applications. They work with HTML, CSS, and JavaScript to create user-friendly interfaces that look great and are easy to navigate.",
+  },
+  {
+    id: 2,
+    firstName: "Ayesha",
+    age: 22,
+    img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1595959131/person-2_ipcjws.jpg",
+    job: "Backend Developer",
+    Text: "A Back-End Developer works on the server side, managing databases, server logic, and application integration. They ensure the website or app runs smoothly behind the scenes, often using languages like Python, Java, or Node.js.",
+  },
+  {
+    id: 3,
+    firstName: "Usman",
+    age: 30,
+    img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883423/person-4_t9nxjt.jpg",
+    job: "Full Stack Developer",
+    Text: "A Full-Stack Developer can handle both front-end and back-end development. They have the skills to build entire web applications from the user interface to the database and server.",
+  },
+  {
+    id: 4,
+    firstName: "Akram",
+    age: 28,
+    img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883417/person-3_ipa0mj.jpg",
+    job: "Java Developer",
+    Text: "A JavaScript Developer specializes in writing code using JavaScript, a popular programming language. They often build interactive features on websites, work on both front-end and back-end (using Node.js), and help create dynamic user experiences.",
+  },
+  {
+    id: 5,
+    firstName: "Zain",
+    age: 27,
+    img: "https://res.cloudinary.com/diqqf3eq2/image/upload/v1586883334/person-1_rfzshl.jpg",
+    job: "Ai Developer",
+    Text: "A Python Developer writes server-side web application logic using the Python programming language. They work on building scalable applications, automating tasks, managing data, and integrating systems. Python developers often use frameworks like Django or Flask to create efficient backend services.",
+  },
+];
