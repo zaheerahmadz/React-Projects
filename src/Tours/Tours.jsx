@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import dataTours from "./dataTours";
 import SingleTour from "./SingleTour";
-document.title = "Tours";
+
 const Tours = () => {
   const [Tour, setTour] = useState(dataTours);
 

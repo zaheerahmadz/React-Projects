@@ -22,7 +22,7 @@ const SingleReview = () => {
   };
   const RandomPerson = () => {
     let RandomNumber = Math.floor(Math.random() * PData.length);
-    console.log(RandomNumber);
+
     setIndex(RandomNumber);
   };
   return (
