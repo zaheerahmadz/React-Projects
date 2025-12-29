@@ -4,6 +4,7 @@ import Tours from "./Tours/Tours";
 import Review from "./ReviewsProject/Review";
 import Questions from "./Questions/Questions";
 import Menu from "./Menu/Menu";
+import Tabs from "./Tabs/Tabs";
 
 const App = () => {
   return (
@@ -12,7 +13,8 @@ const App = () => {
       {/* <Tours /> */}
       {/* <Review /> */}
       {/* <Questions /> */}
-      <Menu />
+      {/* <Menu /> */}
+      <Tabs />
     </>
   );
 };

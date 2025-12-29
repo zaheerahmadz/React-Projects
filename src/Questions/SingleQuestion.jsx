@@ -9,7 +9,7 @@ const SingleQuestion = ({ title, info }) => {
     <article className="p-5 ">
       <section className=" p-5 shadow-lg w-[80%] mx-auto rounded-md bg-gray-50">
         <header className="flex justify-between items-center  transition-all duration-300">
-          <h2 className=" font-semibold capitalize text-2xl text-gray-800 tracking-widest">
+          <h2 className=" sm:text-[20px] md:text-[20px] font-semibold capitalize lg:text-2xl text-gray-800 tracking-widest">
             {title}
           </h2>
           <button onClick={() => setShow(!show)}>
