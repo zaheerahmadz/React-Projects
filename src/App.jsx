@@ -5,6 +5,7 @@ import Review from "./ReviewsProject/Review";
 import Questions from "./Questions/Questions";
 import Menu from "./Menu/Menu";
 import Tabs from "./Tabs/Tabs";
+import Lorem from "./Lorem/Lorem";
 
 const App = () => {
   return (
@@ -14,7 +15,8 @@ const App = () => {
       {/* <Review /> */}
       {/* <Questions /> */}
       {/* <Menu /> */}
-      <Tabs />
+      {/* <Tabs /> */}
+      <Lorem />
     </>
   );
 };
